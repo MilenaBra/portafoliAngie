@@ -1,0 +1,960 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------codigo para el nav en caja 1-------------*/
+
+.caja1{
+    background-color: #657433;
+    height: 40px;
+    
+}
+
+
+nav{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <300>;
+    font-style: normal;
+    font-size: 14px;
+    text-align: right;
+    display:inline-block;
+    width:100%;
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 30px ;
+}
+
+ul li a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 0.3em;
+}
+
+ul li a:hover{
+    background-color: #B8B799;
+    border-color: #B8B799;
+    border-radius: 8%;
+}
+
+#boton-hamburguesa{
+    display: none;
+}
+
+
+.caja2{
+    background-image: url(../imagenes/pattern.jpg);
+    height: 800px;
+}
+
+.logo1{
+    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-left:5%;
+}
+
+h1{font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <500>;
+    font-style::first-line;
+    font-size: 700%;
+    display:inline-block;
+    text-align:left;
+    color:#657433;
+    line-height: 1em;
+    padding: 0px;
+    margin-left:5%;
+}
+
+.indicador{
+    line-height: 1em;
+    margin-left:5%;
+}
+
+h2
+    {
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+.creative{
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left:5%;
+}
+
+
+.caja3{
+    background-image: url(../imagenes/pattern.jpg);
+    height: 800px;
+}
+
+.contenedor{
+    margin-top: 10%;
+    width: 100%;
+}
+
+
+
+/*--------
+.caja4{ background-color: rgb(56, 146, 250);}
+-------------*/
+
+.slogan{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100px;
+    padding-left: 2%;;
+
+
+}
+
+/*--------
+.caja5{ background-color: azure;}
+-------------*/
+
+.indicadorsubtitulos{
+    width: 120px;
+    line-height: 0em;
+    margin-bottom: 20px;
+    margin-left:2%;
+}
+h3
+    {
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+.destacados{
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left:2%;
+}
+
+.caja6{
+background-color: white;
+display: block;
+align-items: center;
+padding-left: 2%;
+}
+
+
+.caja7{
+    padding-left: 2%;
+}
+
+.caja8{
+    padding-left: 2%;
+}
+
+.caja9{
+    padding-left: 2%;
+}
+
+
+.caja10 {
+    background-color: #657433;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    }
+    .caja11 {
+        padding-top: 5%;
+        padding-left: 3%;
+        background-color: #657433;
+        color: #fff;
+    }
+
+    h4{font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;}
+
+/*--------
+corresponde a acerca de mi
+-------------*/
+
+    .caja12{
+        height: 800px;
+    }
+    .caja13{
+        height: 800px;
+    }
+
+    .indicadorsubtitulos1{
+        width: 120px;
+        line-height: 0em;
+        margin-bottom: 20px;
+        margin-left:5%;
+    }
+    .destacados1{
+        font-size: 200%;
+        font-weight: 700;
+        margin-top: 0%;
+        margin-left:5%;
+    }
+
+    p{ font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 130%;
+    }
+
+    .biografia{margin-left: 5%;
+        margin-right: 5%;}
+
+    h5{font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: ;
+    }
+
+    .pasiones{
+        padding-right: 15%;
+        width: 100%;
+    }
+
+    .caja14{
+        padding-left: 2%;
+    }
+    
+    .caja15{
+        padding-left: 2%;
+    }
+    
+    .caja16{
+        padding-left: 2%;
+    }
+
+    .caja17{background-color: #D9D9D9;}
+
+    .caja18{
+        padding-left: 2%;
+    }
+    
+    .caja19{
+        padding-left: 2%;
+    }
+    
+    .caja20{
+        padding-left: 2%;
+    }
+
+    .skills{
+        text-align: left;
+    }
+
+.destacados2{
+        font-size: 200%;
+        font-weight: 700;
+        margin-top: 0%;
+        margin-left:5%;
+    }
+
+
+.herramienta {
+font-size: 30px;
+font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+margin-top: 2%;
+padding: 2% 5%;
+display: inline-block;
+  
+}
+
+.barra-progreso-data1{
+  width: 500px;
+  height: 10px;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.barra-progreso-data1::before {
+  content: "";
+  display: block;
+  width:70%;
+  height: 100%;
+  background-color: #657433;
+
+  }
+
+  .barra-progreso-data2{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .barra-progreso-data2::before {
+    content: "";
+    display: block;
+    width:85%;
+    height: 100%;
+    background-color: #657433;
+    }
+
+    .barra-progreso-data3{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data3::before {
+        content: "";
+        display: block;
+        width:65%;
+        height: 100%;
+        background-color: #657433;
+      
+        }
+        .barra-progreso-data4{
+            width: 500px;
+            height: 10px;
+            background-color: #fbfbfb;
+            border-radius: 5px;
+            margin-top: 5px;
+          }
+          
+          .barra-progreso-data4::before {
+            content: "";
+            display: block;
+            width:95%;
+            height: 100%;
+            background-color: #657433;
+            }
+
+        .barra-progreso-data5{
+                width: 500px;
+                height: 10px;
+                background-color: #fbfbfb;
+                border-radius: 5px;
+                margin-top: 5px;
+              }
+              
+        .barra-progreso-data5::before {
+                content: "";
+                display: block;
+                width:65%;
+                height: 100%;
+                background-color: #657433;
+              
+                }
+
+        .barra-progreso-data6{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data6::before {
+        content: "";
+        display: block;
+        width:45%;
+        height: 100%;
+        background-color: #657433;
+        }
+
+        .barra-progreso-data7{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data7::before {
+        content: "";
+        display: block;
+        width:85%;
+        height: 100%;
+        background-color: #657433;
+      
+        }
+
+    
+        .imagen{scale: 115%;
+        margin-top: 30%;
+        margin-left: 40%;
+    position: relative;}
+
+
+
+/*--------
+el media query necesita de la palabra only screen and () es importante ponerle las medidas min-device seguido del and max device para que coja
+-------------*/
+
+@media only screen and (min-device-width:578px) and (max-device-width:768px)
+{
+
+.caja3{display: none;}
+
+.slogan{font-size: 50px;
+    padding-left: 5%;
+padding-top: 2%;
+padding-bottom: 2%;}
+
+.destacados{font-size: 50px;
+    padding-left: 3%;}
+
+.indicadorsubtitulos{width: 250px;
+    padding-left: 5%;}
+
+.indicadorsubtitulos1{
+    width: 250px;
+    padding-left: 2%;
+    }
+    .destacados1{font-size: 50px;
+        padding-left: 2%;
+    }
+
+.caja6{padding-left: 6%;}
+.caja7{padding-left: 4%;}
+.caja8{padding-left: 6%;}
+.caja9{padding-left: 4%;}
+
+.caja10 {
+background-color: #657433;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+
+}
+.caja11 {
+    padding-top: 3%;
+    background-color: #657433;
+}
+
+h4 {color: #fff;
+padding-top: 5%;
+padding-left: 8%;
+}
+
+/*--------acerca de mi-------------*/
+
+.biografia{scale: 150%;
+width: 70%;
+padding-left: 12%;
+padding-top: 5%;}
+
+.caja13{width: 100%;
+text-align: center;}
+
+.cajapasiones{text-align: center;
+width: 100%;}
+
+h5{font-size: 130%;}
+
+.caja14{
+    padding-left: 30%;
+    padding-right: 25%;
+    font-size: 130%;
+    width: 100%;
+    height: 800px;
+}
+
+.caja15{
+    padding-left: 30%;
+    padding-right: 25%;
+    font-size: 130%;
+    width: 100%;
+    height: 800px;
+}
+
+.caja16{
+    padding-left: 30%;
+    padding-right: 25%;
+    font-size: 130%;
+    width: 100%;
+    height: 800px;
+}
+
+
+.destacados2{
+    font-size: 50px;
+    padding-left: 3%;
+    text-align: center;
+}
+
+.herramienta {
+scale: 110%;
+padding-left: 25%;
+
+}
+
+.barra-progreso-data1{
+width: 500px;
+height: 10px;
+background-color: #fbfbfb;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+.barra-progreso-data1::before {
+content: "";
+display: block;
+width:70%;
+height: 100%;
+background-color: #657433;
+
+}
+
+.barra-progreso-data2{
+width: 500px;
+height: 10px;
+background-color: #fbfbfb;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+.barra-progreso-data2::before {
+content: "";
+display: block;
+width:85%;
+height: 100%;
+background-color: #657433;
+}
+
+.barra-progreso-data3{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .barra-progreso-data3::before {
+    content: "";
+    display: block;
+    width:65%;
+    height: 100%;
+    background-color: #657433;
+  
+    }
+    .barra-progreso-data4{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data4::before {
+        content: "";
+        display: block;
+        width:95%;
+        height: 100%;
+        background-color: #657433;
+        }
+
+    .barra-progreso-data5{
+            width: 500px;
+            height: 10px;
+            background-color: #fbfbfb;
+            border-radius: 5px;
+            margin-top: 5px;
+          }
+          
+    .barra-progreso-data5::before {
+            content: "";
+            display: block;
+            width:65%;
+            height: 100%;
+            background-color: #657433;
+          
+            }
+
+    .barra-progreso-data6{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .barra-progreso-data6::before {
+    content: "";
+    display: block;
+    width:45%;
+    height: 100%;
+    background-color: #657433;
+    }
+
+    .barra-progreso-data7{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .barra-progreso-data7::before {
+    content: "";
+    display: block;
+    width:85%;
+    height: 100%;
+    background-color: #657433;
+  
+    }
+
+
+    .imagen{display: none;}
+
+    .caja18{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 130%;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .caja19{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 130%;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .caja20{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 130%;
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (min-device-width:240px) and (max-device-width:577px)
+{
+
+    .caja1{
+        background-color: #657433;
+    }
+    #menu-hamburguesa {
+        display: none;
+        background-color: #657433;
+        width: 100%;
+        text-align: center;
+      }
+    
+      #menu-hamburguesa ul li {
+        padding: 15px;
+      }
+      #menu-hamburguesa ul li a {
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <300>;
+        font-style: normal;
+        font-size: 80px;
+      }
+    
+    #boton-hamburguesa {
+        display: block;
+        background-color: #657433;
+        color: #fff;
+        font-size: 24px;
+        font-family: sans-serif;
+        padding: 1o%;
+        border: none;
+        cursor: pointer;
+        margin-left: 90%;
+      }
+
+.caja2{
+    height:1800px;}
+
+    .caja3{display: none;}
+
+.logo1{
+    margin-left: 10%;
+}
+
+h1{
+    margin-top: 40%;
+    font-size:1000%;
+}
+
+.creative{
+    margin-left: 4%;
+    font-size: 500%;
+}
+
+
+.slogan{font-size: 400%;
+padding-top: 4%;
+padding-bottom: 4%;
+padding-left: 4%;
+padding-right: 4%;}
+
+
+.caja6{padding-left: 10%;}
+.caja7{padding-left: 8%;}
+.caja8{padding-left: 10%;}
+.caja9{padding-left: 8%;}
+.caja10 {
+    background-color: #657433;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    }
+    .caja11 {
+        padding-top: 8%;
+        padding-left: 3%;
+        background-color: #657433;
+        color: #fff;
+    }
+
+    .destacados{font-size: 400%;
+        padding-left: 2%;}
+    
+    .indicadorsubtitulos{padding-left: 4%;
+    width: 300px;}
+
+    /*--------
+codigo responsive para acerca de
+-------------*/
+
+    
+    .destacados1{font-size: 400%;
+        padding-left: 2%;}
+    
+    .indicadorsubtitulos1{padding-left: 2%;
+    width: 300px;}
+    
+    .biografia{padding-left: 2%;
+        padding-right: 2%;
+        font-size: 170%;
+        text-align: justify;
+    }
+
+    .caja13{margin-top: 5%;
+    margin-left: 10%;
+    scale:80%;}
+
+.cajapasiones{text-align: center;
+    width: 100%;}
+    
+    h5{font-size: 140%;}
+
+    .caja14{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 135%;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .caja15{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 135%;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .caja16{
+        padding-left: 30%;
+        padding-right: 25%;
+        font-size: 135%;
+        width: 100%;
+        height: 800px;
+    }
+    
+    
+    .destacados2{
+        font-size: 50px;
+        padding-left: 3%;
+        text-align: center;
+    }
+    
+    .herramienta {
+    scale: 110%;
+    padding-left: 25%;
+    
+    }
+    
+    .barra-progreso-data1{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    
+    .barra-progreso-data1::before {
+    content: "";
+    display: block;
+    width:70%;
+    height: 100%;
+    background-color: #657433;
+    
+    }
+    
+    .barra-progreso-data2{
+    width: 500px;
+    height: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    
+    .barra-progreso-data2::before {
+    content: "";
+    display: block;
+    width:85%;
+    height: 100%;
+    background-color: #657433;
+    }
+    
+    .barra-progreso-data3{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data3::before {
+        content: "";
+        display: block;
+        width:65%;
+        height: 100%;
+        background-color: #657433;
+      
+        }
+        .barra-progreso-data4{
+            width: 500px;
+            height: 10px;
+            background-color: #fbfbfb;
+            border-radius: 5px;
+            margin-top: 5px;
+          }
+          
+          .barra-progreso-data4::before {
+            content: "";
+            display: block;
+            width:95%;
+            height: 100%;
+            background-color: #657433;
+            }
+    
+        .barra-progreso-data5{
+                width: 500px;
+                height: 10px;
+                background-color: #fbfbfb;
+                border-radius: 5px;
+                margin-top: 5px;
+              }
+              
+        .barra-progreso-data5::before {
+                content: "";
+                display: block;
+                width:65%;
+                height: 100%;
+                background-color: #657433;
+              
+                }
+    
+        .barra-progreso-data6{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data6::before {
+        content: "";
+        display: block;
+        width:45%;
+        height: 100%;
+        background-color: #657433;
+        }
+    
+        .barra-progreso-data7{
+        width: 500px;
+        height: 10px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      
+      .barra-progreso-data7::before {
+        content: "";
+        display: block;
+        width:85%;
+        height: 100%;
+        background-color: #657433;
+      
+        }
+    
+    
+        .imagen{display: none;}
+    
+        .caja18{
+            padding-left: 30%;
+            padding-right: 25%;
+            font-size: 130%;
+            width: 100%;
+            height: 400px;
+        }
+        
+        .caja19{
+            padding-left: 30%;
+            padding-right: 25%;
+            font-size: 130%;
+            width: 100%;
+            height: 400px;
+        }
+        
+        .caja20{
+            padding-left: 30%;
+            padding-right: 25%;
+            font-size: 130%;
+            width: 100%;
+            height: 400px;
+        }
+
+}
